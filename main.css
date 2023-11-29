@@ -1,0 +1,16 @@
+body {
+  background: #202020;
+  color: white;
+}
+
+.banner img{
+  width: 100%;
+  /*largo*/
+  height: 450px;
+  cursor: pointer;
+  transition: all is ease;
+}
+
+.banner img:hover{
+  filter:contrast(100);
+}
