@@ -17,15 +17,15 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="/">FireApp</a>
+      <a class="navbar-brand" href="/">Fercho videojuegos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signinModal">Signin</a>
-          <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</a>
+          <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signinModal">Iniciar sesión</a>
+          <a class="nav-link logged-out" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Registrar cuenta</a>
           <a class="nav-link logged-in" href="#" id="logout">Logout</a>
         </div>
       </div>
@@ -54,12 +54,12 @@
           <form id="signup-form">
 
             <label for="email">Email:</label>
-            <input type="text" id="signup-email" class="form-control mb-3" placeholder="Title" required>
+            <input type="text" id="signup-email" class="form-control mb-3" placeholder="Ejemplo: 123@test.com" required>
 
-            <label for="password">Password:</label>
-            <input type="password" id="signup-password" class="form-control mb-3" placeholder="Password" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="signup-password" class="form-control mb-3" placeholder="Contraseña ***" required>
 
-            <button type="submit" class="btn btn-primary">Save changes</button>
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
           </form>
         </div>
       </div>
@@ -76,10 +76,10 @@
         </div>
         <div class="modal-body">
           <form id="login-form">
-            <label for="email">Email</label>
-            <input type="text" id="login-email" class="form-control mb-3" placeholder="Title" required>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="login-password" class="form-control mb-3" placeholder="Password" required>
+            <label for="email">Email: </label>
+            <input type="text" id="login-email" class="form-control mb-3" placeholder="Ejemplo: 123@test.com" required>
+            <label for="password">Contraseña: </label>
+            <input type="password" id="login-password" class="form-control mb-3" placeholder="Contraseña" required>
 
             <button type="submit" class="btn btn-success w-100 mb-4">Iniciar sesión</button>
             <button type="button" class="btn btn-info" id="googleLogin">Google</button>
