@@ -3,14 +3,12 @@ body {
   color: white;
 }
 
-.banner img{
-  width: 100%;
-  /*largo*/
-  height: 450px;
+.imagen-logo {
   cursor: pointer;
-  transition: all is ease;
+  transition: all ease;
 }
 
-.banner img:hover{
-  filter:contrast(100);
+.imagen-logo:hover {
+  transform: scale(1.1);
+  opacity: 0.8; /* Cambia la opacidad al 80% */
 }
